@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create new product</title>
+</head>
+<body>
+    <header>
+        <h1>Crear nuevo producto</h1>
+    </header>
+    <section>
+        <form method="post">
+            <input type="hidden" id="idProduct">
+            <p>Nombre</p>
+            <input type="text" id="name" placeholder="Nombre">
+            <p>Description</p>
+            <input typpe="text" id="description" placeholder="Description">
+            <p>Units</p>
+            <input type="number" id="units" placeholder="Units">
+            <p>Value</p>
+            <input type="number" id="value" placeholder="Value">
+            <p>User ID:</p>
+            <input type="number" id="createdByUserId" placeholder="User ID">
+            <p>Provider ID</p>
+            <input type="number" id="providerId" placeholder="Provider ID">
+            <div>
+                <button type="button" id="cancel">
+                    <a href="index.html">Cancelar</a>
+                </button>
+                <button type="submit" id="createdProdcut">Crear producto</button>
+            </div>
+        </form>
+    </section>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar mmovimiento</title>
+</head>
+<body>
+    <header>
+        <h1>Agregar nuevo movimiento</h1>
+    </header>
+    <section class="container">
+        <div>
+            <form>
+                <p>Concepto</p>
+                <input type="text" id="concept" placeholder="Concepto">
+                <p>Tipo de movimiento</p>
+                <select name="movementType" id="movementType">
+                    <option>Egreso</option>
+                    <option>Ingreso</option>
+                </select>
+                <p>Tipo de gasto</p>
+                <select name="dischargeType" id="dischargeType">
+                    <option>No aplica</option>
+                    <option>Fijo</option>
+                    <option>Variable</option>
+                </select>
+                <p>Forma de pago</p>
+                <select name="paymentMethod" id="paymentMethod">
+                    <option>Efectivo</option>
+                    <option>Tarjeta de crédito/debito</option>
+                    <option>Transferencia</option>
+                </select>
+                <p>Monto</p>
+                <input type="number" id="amount" placeholder="Monto">
+                <div>
+                    <button type="button" id="btn-goBack">Regresar</button>
+                    <button type="submit" id="btn-sendRequest">Agregar movimiento</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    
+</body>
+</html>

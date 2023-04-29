@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="#">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update product</title>
+</head>
+<body>
+    <header>
+        <h1>Editar producto</h1>
+    </header>
+    <section>
+        <form method="post">
+            <p>Nombre</p>
+            <input type="text" id="name" placeholder="Nombre">
+            <p>Description</p>
+            <input typpe="text" id="description" placeholder="Description">
+            <p>Units</p>
+            <input type="number" id="units" placeholder="Units">
+            <p>Value</p>
+            <input type="number" id="value" placeholder="Value">
+            <p>User ID:</p>
+            <input type="number" id="updatedByUserId" placeholder="User ID">
+            <p>Provider ID</p>
+            <input type="number" id="providerId" placeholder="Provider ID">
+            <div>
+                <button type="button" id="cancel">
+                    <a href="index.html">Cancelar</a>
+                </button>
+                <button type="submit" id="updateProduct">Guardar cambios</button>
+            </div>
+        </form>
+
+
+    </section>
+
+    <script
+  src="https://code.jquery.com/jquery-3.6.3.min.js"
+  integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+  crossorigin="anonymous"></script>
+  <script src="../../dom/products/updateProduct.dom.js"></script>
+</body>
+</html>
